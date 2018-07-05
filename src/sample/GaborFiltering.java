@@ -35,7 +35,7 @@ public class GaborFiltering {
                     break;
                 }
 
-                tempResult = Matrix.dotProduct(Utils.imageToPixels(subGrayScale), Utils.imageToPixels(gabor), 20);
+                tempResult = Matrix.ConvolveOP(Utils.imageToPixels(subGrayScale), Utils.imageToPixels(gabor), 20);
                 //System.out.print(tempResult+"\t");
                 result[i][j] = tempResult;
                 //Utils.writeImage(subLena, "subLena"+(n++));

@@ -38,7 +38,9 @@ public class Controller implements Initializable {
     @FXML
     private Button btn_arrow;
     private String currentBeforePath = null;
+    private String currentBeforeImageName = null;
     private String currentAfterPath = null;
+    private String currentAfterImageName = null;
     private File beforeFile, afterFile;
     private String filePath = null;
     private String fileName = null;
@@ -71,7 +73,7 @@ public class Controller implements Initializable {
         Image image = new Image(file.toURI().toString());
         gaborImageView.setImage(image);
 
-        defaultImageFile = new File("./res/default.png");
+        defaultImageFile = new File("./res/default.jpg");
         defaultImg = new Image(defaultImageFile.toURI().toString());
         beforeImage.setImage(defaultImg);
         afterImage.setImage(defaultImg);
@@ -87,7 +89,7 @@ public class Controller implements Initializable {
 
 
 
-                    File gaborFile = new File("./res/results/"+fileName+"_threshold" + currentThresholdValue+".jpg");
+                    File gaborFile = new File("./res/results/"+getFileName(new File(currentBeforePath))+"_threshold" + currentThresholdValue+".jpg");
                     currentAfterPath = gaborFile.getAbsolutePath();
                     Image thresholdImage = new Image(gaborFile.toURI().toString());
                     afterImage.setImage(thresholdImage);
@@ -102,7 +104,6 @@ public class Controller implements Initializable {
     public void onLoadImage(){
         FileChooser.ExtensionFilter imageFilter
                 = new FileChooser.ExtensionFilter("Image Files", "*.jpg");
-        System.out.println("Hello");
         FileChooser imgChooser = new FileChooser();
         imgChooser.getExtensionFilters().add(imageFilter);
         File selectedImage = imgChooser.showOpenDialog(null);
@@ -110,9 +111,6 @@ public class Controller implements Initializable {
             currentBeforePath = selectedImage.getAbsolutePath();
             beforeImage.setImage(new Image(selectedImage.toURI().toString()));
 
-            filePath = selectedImage.getAbsolutePath();
-            fileName = selectedImage.getName();
-            fileName = fileName.substring(0,fileName.length()-4);
 
         }
 
@@ -121,14 +119,13 @@ public class Controller implements Initializable {
         if(currentBeforePath!=null) {
             BufferedImage grayImage = Utils.convertToGrayScaled(Utils.readImage(currentBeforePath));
             beforeFile = new File(currentBeforePath);
-            String grayScaledName = beforeFile.getName().substring(0,beforeFile.getName().length()-4)+"_grayScaled";
+            String grayScaledName = getFileName(beforeFile)+"_grayScaled";
             //System.out.println(grayScaledName);
             Utils.writeImage(grayImage,grayScaledName);
             File grayFile = new File("./res/results/"+grayScaledName+".jpg");
-            grayScaledFilePath = grayFile.getAbsolutePath();
-            grayScaledFileName = grayFile.getName().substring(0,grayFile.getName().length()-4);
             currentAfterPath = grayFile.getAbsolutePath();
-            System.out.println(currentAfterPath);
+            currentAfterImageName = getFileName(grayFile);
+            //System.out.println(currentAfterPath);
             afterImage.setImage(new Image(grayFile.toURI().toString()));
             //Utils.writeImage(grayImage,);
         }
@@ -157,13 +154,15 @@ public class Controller implements Initializable {
 
     }
     public void applyGabor(){
-        if(grayScaledFilePath!=null){
+        if(currentBeforePath!=null){
             for(int i=0;i<40;i++){
                 if(gaborComboBox.getSelectionModel().getSelectedItem().equals("Gabor "+i)){
-                    GaborFiltering.applyGabor(gabors.get(i),Utils.readImage(grayScaledFilePath),grayScaledFileName,"gabor_"+i);
-                    gaboredImageFilePath = "./res/results/"+grayScaledFileName+"_"+"gabor_"+i+".jpg";
+
+                    GaborFiltering.applyGabor(gabors.get(i),Utils.readImage(currentBeforePath),currentBeforeImageName,"gabor_"+i);
+                    gaboredImageFilePath = "./res/results/"+currentBeforeImageName+"_"+"gabor_"+i+".jpg";
                     File gaboredImageFile = new File(gaboredImageFilePath);
                     currentAfterPath = gaboredImageFile.getAbsolutePath();
+                    currentAfterImageName = getFileName(gaboredImageFile);
                     afterImage.setImage(new Image(gaboredImageFile.toURI().toString()));
                     Alert alert = new Alert(Alert.AlertType.INFORMATION);
                     alert.setTitle("Done");
@@ -177,7 +176,7 @@ public class Controller implements Initializable {
         else{
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("Error");
-            alert.setHeaderText("Convert an image to gray scale first");
+            alert.setHeaderText("No image found");
 
 
             alert.showAndWait();
@@ -185,17 +184,18 @@ public class Controller implements Initializable {
     }
     public void applyThreshold(){
 
-        if(gaboredImageFilePath!=null) {
+        if(currentBeforePath!=null) {
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Threshold");
             alert.setHeaderText("Apply thresholding");
 
 
             alert.showAndWait();
-            File gaboredImageFile = new File(gaboredImageFilePath);
+
             for (int i = 0; i <= 255; i++) {
 
-                Utils.writeImage(Processing.filtering(Utils.readImage(gaboredImageFilePath), i), fileName + "_threshold" + i);
+                Utils.writeImage(Processing.filtering(Utils.readImage(currentBeforePath), i), getFileName(new File(currentBeforePath)) + "_threshold" + i);
+
 
             }
             thresholded = true;
@@ -220,6 +220,7 @@ public class Controller implements Initializable {
         afterImage.setImage(defaultImg);
     }
     public void XOR(){
+
         String TValue1 = thresholdVal1.getText().toString();
         String TValue2 = thresholdVal2.getText().toString();
 //        if(!TValue1.equals("")&&!TValue2.equals("")){
@@ -229,15 +230,15 @@ public class Controller implements Initializable {
 
 
 
-            BufferedImage img_t1 = Utils.readImage("./res/results/faces20_threshold182.jpg");
-            BufferedImage img_t2 = Utils.readImage("./res/results/faces20_threshold222.jpg");
+            BufferedImage img_t1 = Utils.readImage("./res/results/"+getFileName(new File(currentBeforePath))+"_threshold"+TValue1+".jpg");
+            BufferedImage img_t2 = Utils.readImage("./res/results/"+getFileName(new File(currentBeforePath))+"_threshold"+TValue2+".jpg");
             BufferedImage XOR_image = Processing.XOR(img_t1,img_t2);
 
             Utils.writeImage(XOR_image,"XOR182_222");
             XORFilePath = "./res/results/XOR182_222.jpg";
             File xorFile = new File(XORFilePath);
-            System.out.println(xorFile.getAbsolutePath());
             Image xorImg = new Image(xorFile.toURI().toString());
+            currentAfterPath = xorFile.getAbsolutePath();
 
             afterImage.setImage(xorImg);
        // }
@@ -278,15 +279,31 @@ public class Controller implements Initializable {
         afterImage.setImage(new Image(new File(XORFilePath).toURI().toString()));
         // }
     }
+    public void edgeDetection(){
+        if(currentBeforePath!=null){
+            BufferedImage currentImg = Utils.readImage(currentBeforePath);
+            Utils.writeImage(EdgeDetection.sobelOperation(currentImg),"sobeled"+getFileName(new File(currentBeforePath)));
+            currentAfterPath = "./res/results/sobeled"+ getFileName(new File(currentBeforePath))+".jpg";
+            System.out.println(currentAfterPath);
+            Utils.setImageWithPath(afterImage,currentAfterPath);
+        }
+    }
     public void onSwitch(){
         currentBeforePath = currentAfterPath;
+        currentBeforeImageName = getFileName(new File(currentBeforePath));
+        currentAfterImageName = null;
+        currentAfterPath = null;
         setImage(beforeImage,new File(currentBeforePath));
         setImage(afterImage,defaultImageFile);
+
     }
     public void setImage(ImageView imgView, File file){
 
         Image img = new Image(file.toURI().toString());
         imgView.setImage(img);
+    }
+    public String getFileName(File file){
+        return file.getName().substring(0,file.getName().length()-4);
     }
 
 

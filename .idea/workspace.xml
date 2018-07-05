@@ -1,7 +1,1079 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Face-Dection (Gabor)/sample/Controller.class" afterPath="$PROJECT_DIR$/out/production/Face-Dection (Gabor)/sample/Controller.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Face-Dection (Gabor)/sample/GaborFiltering.class" afterPath="$PROJECT_DIR$/out/production/Face-Dection (Gabor)/sample/GaborFiltering.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Face-Dection (Gabor)/sample/Matrix.class" afterPath="$PROJECT_DIR$/out/production/Face-Dection (Gabor)/sample/Matrix.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Face-Dection (Gabor)/sample/sample.fxml" afterPath="$PROJECT_DIR$/out/production/Face-Dection (Gabor)/sample/sample.fxml" />
+      <change beforePath="$PROJECT_DIR$/res/default.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/6_grayScaled.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/AND182_222.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/DSC_5340 Darken_grayScaled.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_grayScaled.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_grayScaled_gabor_0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_grayScaled_gabor_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_grayScaled_gabor_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_grayScaled_gabor_20.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_grayScaled_gabor_24.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_grayScaled_gabor_25.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_grayScaled_gabor_28.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_grayScaled_gabor_36.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_grayScaled_gabor_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_grayScaled_gabor_8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_grayScaled_gabor_9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold101.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold102.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold103.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold104.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold105.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold106.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold107.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold108.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold109.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold110.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold111.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold112.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold113.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold114.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold115.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold116.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold117.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold118.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold119.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold120.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold121.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold122.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold123.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold124.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold125.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold126.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold127.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold128.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold129.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold130.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold131.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold132.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold133.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold134.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold135.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold136.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold137.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold138.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold139.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold140.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold141.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold142.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold143.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold144.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold145.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold146.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold147.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold148.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold149.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold150.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold151.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold152.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold153.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold154.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold155.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold156.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold157.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold158.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold159.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold160.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold161.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold162.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold163.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold164.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold165.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold166.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold167.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold168.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold169.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold17.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold170.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold171.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold172.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold173.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold174.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold175.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold176.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold177.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold178.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold179.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold18.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold180.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold181.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold182.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold183.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold184.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold185.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold186.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold187.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold188.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold189.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold19.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold190.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold191.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold192.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold193.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold194.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold195.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold196.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold197.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold198.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold199.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold20.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold201.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold202.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold203.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold204.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold205.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold206.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold207.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold208.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold209.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold21.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold210.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold211.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold212.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold213.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold214.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold215.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold216.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold217.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold218.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold219.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold22.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold220.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold221.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold222.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold223.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold224.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold225.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold226.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold227.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold228.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold229.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold23.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold230.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold231.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold232.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold233.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold234.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold235.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold236.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold237.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold238.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold239.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold24.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold240.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold241.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold242.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold243.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold244.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold245.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold246.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold247.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold248.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold249.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold25.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold250.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold251.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold252.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold253.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold254.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold255.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold26.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold27.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold28.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold29.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold30.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold31.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold32.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold33.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold34.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold35.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold36.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold37.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold38.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold39.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold40.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold41.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold42.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold43.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold44.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold45.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold46.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold47.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold48.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold49.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold50.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold51.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold52.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold53.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold54.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold55.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold56.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold57.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold58.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold59.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold60.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold61.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold62.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold63.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold64.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold65.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold66.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold67.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold68.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold69.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold70.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold71.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold72.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold73.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold74.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold76.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold77.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold78.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold79.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold80.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold81.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold82.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold83.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold84.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold85.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold86.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold87.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold88.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold89.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold90.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold91.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold92.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold93.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold94.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold95.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold96.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold97.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold98.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/Grayfaces__6_threshold99.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/OR182_222.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/XOR182_222.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1.jpg_grayScaled.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces12_grayScaled.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_grayScaled.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_grayScaled_gabor_0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_grayScaled_gabor_18.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_grayScaled_gabor_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_grayScaled_gabor_28.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_grayScaled_gabor_32.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_grayScaled_gabor_36.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_grayScaled_gabor_39.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_grayScaled_gabor_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_grayScaled_gabor_8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold101.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold102.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold103.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold104.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold105.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold106.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold107.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold108.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold109.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold110.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold111.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold112.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold113.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold114.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold115.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold116.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold117.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold118.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold119.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold120.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold121.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold122.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold123.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold124.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold125.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold126.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold127.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold128.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold129.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold130.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold131.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold132.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold133.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold134.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold135.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold136.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold137.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold138.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold139.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold140.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold141.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold142.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold143.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold144.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold145.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold146.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold147.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold148.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold149.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold150.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold151.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold152.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold153.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold154.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold155.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold156.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold157.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold158.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold159.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold160.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold161.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold162.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold163.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold164.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold165.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold166.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold167.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold168.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold169.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold17.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold170.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold171.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold172.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold173.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold174.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold175.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold176.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold177.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold178.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold179.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold18.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold180.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold181.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold182.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold183.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold184.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold185.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold186.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold187.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold188.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold189.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold19.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold190.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold191.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold192.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold193.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold194.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold195.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold196.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold197.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold198.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold199.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold20.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold201.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold202.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold203.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold204.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold205.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold206.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold207.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold208.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold209.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold21.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold210.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold211.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold212.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold213.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold214.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold215.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold216.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold217.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold218.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold219.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold22.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold220.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold221.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold222.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold223.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold224.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold225.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold226.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold227.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold228.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold229.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold23.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold230.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold231.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold232.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold233.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold234.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold235.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold236.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold237.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold238.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold239.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold24.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold240.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold241.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold242.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold243.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold244.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold245.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold246.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold247.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold248.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold249.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold25.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold250.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold251.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold252.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold253.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold254.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold255.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold26.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold27.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold28.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold29.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold30.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold31.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold32.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold33.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold34.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold35.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold36.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold37.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold38.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold39.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold40.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold41.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold42.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold43.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold44.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold45.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold46.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold47.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold48.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold49.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold50.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold51.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold52.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold53.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold54.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold55.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold56.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold57.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold58.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold59.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold60.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold61.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold62.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold63.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold64.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold65.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold66.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold67.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold68.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold69.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold70.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold71.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold72.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold73.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold74.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold76.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold77.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold78.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold79.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold80.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold81.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold82.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold83.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold84.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold85.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold86.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold87.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold88.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold89.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold90.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold91.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold92.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold93.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold94.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold95.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold96.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold97.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold98.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces1_threshold99.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_grayScaled_gabor_0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_grayScaled_gabor_32.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_grayScaled_gabor_8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold101.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold102.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold103.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold104.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold105.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold106.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold107.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold108.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold109.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold110.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold111.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold112.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold113.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold114.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold115.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold116.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold117.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold118.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold119.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold120.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold121.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold122.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold123.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold124.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold125.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold126.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold127.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold128.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold129.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold130.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold131.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold132.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold133.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold134.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold135.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold136.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold137.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold138.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold139.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold140.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold141.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold142.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold143.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold144.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold145.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold146.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold147.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold148.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold149.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold150.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold151.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold152.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold153.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold154.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold155.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold156.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold157.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold158.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold159.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold160.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold161.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold162.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold163.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold164.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold165.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold166.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold167.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold168.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold169.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold17.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold170.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold171.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold172.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold173.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold174.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold175.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold176.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold177.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold178.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold179.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold18.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold180.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold181.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold182.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold183.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold184.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold185.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold186.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold187.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold188.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold189.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold19.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold190.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold191.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold192.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold193.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold194.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold195.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold196.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold197.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold198.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold199.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold20.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold201.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold202.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold203.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold204.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold205.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold206.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold207.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold208.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold209.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold21.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold210.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold211.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold212.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold213.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold214.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold215.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold216.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold217.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold218.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold219.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold22.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold220.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold221.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold222.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold223.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold224.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold225.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold226.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold227.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold228.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold229.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold23.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold230.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold231.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold232.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold233.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold234.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold235.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold236.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold237.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold238.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold239.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold24.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold240.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold241.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold242.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold243.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold244.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold245.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold246.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold247.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold248.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold249.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold25.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold250.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold251.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold252.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold253.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold254.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold255.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold26.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold27.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold28.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold29.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold30.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold31.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold32.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold33.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold34.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold35.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold36.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold37.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold38.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold39.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold40.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold41.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold42.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold43.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold44.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold45.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold46.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold47.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold48.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold49.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold50.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold51.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold52.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold53.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold54.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold55.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold56.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold57.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold58.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold59.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold60.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold61.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold62.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold63.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold64.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold65.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold66.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold67.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold68.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold69.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold70.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold71.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold72.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold73.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold74.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold76.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold77.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold78.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold79.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold80.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold81.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold82.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold83.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold84.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold85.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold86.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold87.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold88.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold89.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold90.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold91.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold92.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold93.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold94.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold95.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold96.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold97.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold98.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces20_threshold99.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_grayScaled.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_grayScaled_gabor_32.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold0.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold100.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold101.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold102.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold103.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold104.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold105.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold106.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold107.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold108.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold109.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold110.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold111.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold112.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold113.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold114.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold115.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold116.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold117.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold118.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold119.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold120.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold121.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold122.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold123.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold124.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold125.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold126.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold127.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold128.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold129.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold130.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold131.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold132.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold133.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold134.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold135.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold136.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold137.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold138.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold139.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold140.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold141.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold142.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold143.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold144.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold145.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold146.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold147.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold148.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold149.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold150.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold151.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold152.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold153.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold154.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold155.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold156.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold157.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold158.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold159.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold160.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold161.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold162.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold163.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold164.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold165.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold166.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold167.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold168.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold169.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold17.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold170.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold171.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold172.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold173.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold174.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold175.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold176.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold177.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold178.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold179.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold18.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold180.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold181.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold182.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold183.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold184.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold185.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold186.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold187.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold188.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold189.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold19.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold190.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold191.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold192.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold193.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold194.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold195.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold196.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold197.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold198.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold199.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold20.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold200.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold201.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold202.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold203.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold204.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold205.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold206.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold207.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold208.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold209.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold21.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold210.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold211.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold212.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold213.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold214.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold215.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold216.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold217.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold218.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold219.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold22.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold220.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold221.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold222.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold223.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold224.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold225.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold226.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold227.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold228.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold229.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold23.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold230.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold231.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold232.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold233.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold234.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold235.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold236.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold237.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold238.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold239.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold24.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold240.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold241.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold242.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold243.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold244.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold245.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold246.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold247.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold248.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold249.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold25.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold250.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold251.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold252.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold253.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold254.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold255.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold26.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold27.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold28.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold29.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold30.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold31.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold32.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold33.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold34.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold35.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold36.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold37.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold38.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold39.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold40.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold41.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold42.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold43.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold44.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold45.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold46.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold47.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold48.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold49.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold50.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold51.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold52.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold53.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold54.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold55.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold56.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold57.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold58.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold59.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold60.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold61.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold62.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold63.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold64.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold65.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold66.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold67.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold68.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold69.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold70.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold71.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold72.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold73.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold74.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold75.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold76.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold77.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold78.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold79.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold80.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold81.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold82.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold83.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold84.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold85.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold86.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold87.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold88.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold89.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold90.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold91.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold92.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold93.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold94.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold95.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold96.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold97.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold98.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces24_threshold99.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/res/results/faces8_grayScaled.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="$PROJECT_DIR$/src/sample/Controller.java" />
+      <change beforePath="$PROJECT_DIR$/src/sample/GaborFiltering.java" afterPath="$PROJECT_DIR$/src/sample/GaborFiltering.java" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Matrix.java" afterPath="$PROJECT_DIR$/src/sample/Matrix.java" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Utils.java" afterPath="$PROJECT_DIR$/src/sample/Utils.java" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -58,21 +1130,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Processing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Processing.java">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2176">
-              <caret line="128" column="42" lean-forward="false" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="17">
+              <caret line="75" column="45" lean-forward="false" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+              <folding>
+                <element signature="e#11811#11812#0" expanded="true" />
+                <element signature="e#11887#11888#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Matrix.java">
+      <file leaf-file-name="GaborFiltering.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/GaborFiltering.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -81,11 +1156,9 @@
       <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2057">
-              <caret line="129" column="37" lean-forward="false" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="2040">
+              <caret line="128" column="31" lean-forward="false" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,8 +1169,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="126" column="93" lean-forward="false" selection-start-line="126" selection-start-column="93" selection-end-line="126" selection-end-column="93" />
+            <state relative-caret-position="2550">
+              <caret line="150" column="34" lean-forward="false" selection-start-line="150" selection-start-column="34" selection-end-line="150" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -106,36 +1179,29 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <file leaf-file-name="EdgeDetection.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/EdgeDetection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1715#1730#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GaborFiltering.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/GaborFiltering.java">
+      <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,12 +1218,22 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>after</find>
+      <find>ApplyG</find>
+      <find>currentBefore</find>
+      <find>afterImage</find>
+      <find>System</find>
+      <find>System.out</find>
+      <find>arrow</find>
+      <find>Label</find>
     </findStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -168,12 +1244,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/sample/Utils.java" />
-        <option value="$PROJECT_DIR$/src/sample/Matrix.java" />
         <option value="$PROJECT_DIR$/src/sample/GaborFiltering.java" />
         <option value="$PROJECT_DIR$/src/sample/Processing.java" />
+        <option value="$PROJECT_DIR$/src/sample/Utils.java" />
+        <option value="$PROJECT_DIR$/src/sample/EdgeDetection.java" />
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/Matrix.java" />
       </list>
     </option>
   </component>
@@ -184,6 +1261,7 @@
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -202,10 +1280,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,6 +1327,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gabor-filter-master" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -417,7 +1496,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3496063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -458,23 +1537,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1715#1730#0" expanded="true" />
+            <element signature="e#11811#11812#0" expanded="true" />
+            <element signature="e#11887#11888#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -483,9 +1552,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -512,9 +1579,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1938">
           <caret line="122" column="13" lean-forward="true" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -541,9 +1606,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -552,8 +1615,8 @@
         <state relative-caret-position="136">
           <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1715#1730#0" expanded="true" />
+            <element signature="e#11811#11812#0" expanded="true" />
+            <element signature="e#11887#11888#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -562,9 +1625,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -588,9 +1649,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -609,9 +1668,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -620,8 +1677,8 @@
         <state relative-caret-position="2601">
           <caret line="169" column="26" lean-forward="false" selection-start-line="169" selection-start-column="26" selection-end-line="169" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1715#1730#0" expanded="true" />
+            <element signature="e#11811#11812#0" expanded="true" />
+            <element signature="e#11887#11888#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -630,9 +1687,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -648,9 +1703,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="81" column="78" lean-forward="false" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -677,9 +1730,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -687,9 +1738,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -698,8 +1747,8 @@
         <state relative-caret-position="374">
           <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1715#1730#0" expanded="true" />
+            <element signature="e#11811#11812#0" expanded="true" />
+            <element signature="e#11887#11888#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -709,8 +1758,8 @@
         <state relative-caret-position="476">
           <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1715#1730#0" expanded="true" />
+            <element signature="e#11811#11812#0" expanded="true" />
+            <element signature="e#11887#11888#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -730,9 +1779,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,8 +1788,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1715#1730#0" expanded="true" />
+            <element signature="e#11811#11812#0" expanded="true" />
+            <element signature="e#11887#11888#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -762,9 +1809,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -772,9 +1817,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -783,8 +1826,8 @@
         <state relative-caret-position="238">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1715#1730#0" expanded="true" />
+            <element signature="e#11811#11812#0" expanded="true" />
+            <element signature="e#11887#11888#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -804,9 +1847,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -815,8 +1856,8 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1715#1730#0" expanded="true" />
+            <element signature="e#11811#11812#0" expanded="true" />
+            <element signature="e#11887#11888#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -836,9 +1877,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -858,8 +1897,8 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1715#1730#0" expanded="true" />
+            <element signature="e#11811#11812#0" expanded="true" />
+            <element signature="e#11887#11888#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -887,49 +1926,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Utils.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Processing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="129" column="37" lean-forward="false" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="226">
+          <caret line="93" column="51" lean-forward="true" selection-start-line="93" selection-start-column="51" selection-end-line="93" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Processing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="128" column="42" lean-forward="false" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/GaborFiltering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,20 +1947,52 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="126" column="93" lean-forward="false" selection-start-line="126" selection-start-column="93" selection-end-line="126" selection-end-column="93" />
+        <state relative-caret-position="2550">
+          <caret line="150" column="34" lean-forward="false" selection-start-line="150" selection-start-column="34" selection-end-line="150" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="128" column="31" lean-forward="false" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="75" column="45" lean-forward="false" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1715#1730#0" expanded="true" />
+            <element signature="e#11811#11812#0" expanded="true" />
+            <element signature="e#11887#11888#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/GaborFiltering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/EdgeDetection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>

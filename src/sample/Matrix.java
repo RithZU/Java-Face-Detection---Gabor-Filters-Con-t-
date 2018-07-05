@@ -4,7 +4,7 @@ import java.awt.image.BufferedImage;
 
 public class Matrix {
 
-    public static double dotProduct(double[][] A, double[][] B,int gaborSize) {
+    public static double ConvolveOP(double[][] A, double[][] B, int gaborSize) {
 
         int aRows = A.length;
         int aColumns = A[0].length;
